@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Essentials">
+        <menu>
+        <item
+            android:id="@+id/nearby_hospitals"
+            android:icon="@drawable/hospital"
+            android:title="Nearby Hospital" />
+        <item
+            android:id="@+id/govt_scheme"
+            android:icon="@drawable/govern"
+            android:title="Vaccine History" />
+        <item
+            android:id="@+id/vaccination"
+            android:icon="@drawable/vaccine"
+            android:title="Vaccine List" />
+        </menu>
+    </item>
+
+
+    <item android:title="FeedBack">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/about"
+                android:icon="@drawable/information"
+                android:title="About" />
+        </menu>
+    </item>
+
+</menu>
